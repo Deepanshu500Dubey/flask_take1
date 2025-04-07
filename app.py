@@ -101,7 +101,7 @@ class Worker:
 
 def initialize_workers():
     groq_model = ChatGroq(
-        model_name="deepseek-r1-distill-llama-70b",
+        model_name="deepseek-coder-6.7b-instruct",
         temperature=0,
         streaming=True,
         api_key=GROQ_API_KEY
